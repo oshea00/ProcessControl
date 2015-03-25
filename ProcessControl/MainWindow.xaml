@@ -1,0 +1,18 @@
+﻿<Window x:Class="ProcessControl.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <StackPanel>
+            <TextBlock Name="tbDoc" Height="100">
+                Yada
+            </TextBlock>
+            <TextBox Name="txtText"></TextBox>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="btnAddText" Click="btnAddText_Click">Add Text</Button>
+                <Button Name="btnReplace" Click="btnReplace_Click">Replace Text</Button>
+                <Button Name="btnClear" Click="btnClear_Click">Clear Text</Button>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
