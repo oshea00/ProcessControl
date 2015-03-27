@@ -49,24 +49,5 @@ namespace ProcessControl
 
         }
 
-        public void Stop()
-        {
-
-        }
-
-        public void AddText(string text)
-        {
-
-        }
-
-        public void ReplaceText(string text)
-        {
-
-        }
-
-        public void ClearText()
-        {
-
-        }
     }
 }
